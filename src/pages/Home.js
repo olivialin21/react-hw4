@@ -1,5 +1,6 @@
 import { Layout } from 'antd';
 import { useState } from 'react';
+import HamMenu from "../components/HamMenu"
 import AppHeader from "../components/Header"
 import NavBar from "../components/NavBar"
 import AppFooter from "../components/Footer"
@@ -7,8 +8,6 @@ import ProductList from "../components/ProductList";
 import products from "../json/products.json";
 
 const { Header, Content, Footer } = Layout;
-
-
 
 function Home() {
   const [isOnTouch, setIsOnTouch] = useState(false);
