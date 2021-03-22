@@ -15,7 +15,7 @@ function Home() {
     <Layout className="container main-layout">
       <Header className="layout-header">
         <HamMenu
-          onClick={()=> setIsOnTouch(!isOnTouch)}
+          onClick={() => setIsOnTouch(!isOnTouch)}
           isOnTouch={isOnTouch}
         />
         <AppHeader title="NORDIC NEST Shopping Cart"/>
