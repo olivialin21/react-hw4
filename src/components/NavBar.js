@@ -4,7 +4,7 @@ export default function NavBar({isOnTouch}) {
   return (
     <>
       <div className={`nav-bar-wrap ${isOnTouch ? "" : "collapse-mobile-wrap"}`}></div>
-      <div className={`nav-bar ${isOnTouch ? "" : "collapse-mobile-wrap"}`}>
+      <div className={`nav-bar ${isOnTouch ? "" : "collapse-mobile"}`}>
         <NavLink to="/tableware" className="nav-item" activeClassName="nav-item--active">
             Tableware
         </NavLink>

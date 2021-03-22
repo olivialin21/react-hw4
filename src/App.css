@@ -136,21 +136,25 @@ body {
 
 @media (max-width: 768px){
   .collapse-mobile{
-    transform: translateX(-100%);    
+    transform: translateX(-100%); 
+    transition: ease-in-out 0.4s;   
   }
 
   .nav-bar{
     background-color: #111828;
     position:absolute;
     z-index: 99;
-    width: 80%;
+    width: 60%;
+    height: 80vh;
     flex-direction: column;
-    text-align: left;
+    top:1rem;
+    transition: ease-in-out 0.4s;  
   }
 
   .nav-item{
+    text-align: left;
     font-size: 1.2em;
-    margin: 2rem auto;
+    margin: 0 auto;
     width: 50%;
   }
 
@@ -393,3 +397,9 @@ body {
   top: 21px;
   left: 8px;
   }
+
+@media (min-width:768px){
+  .animated-icon3{
+    display: none;
+  }
+}
